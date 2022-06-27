@@ -105,7 +105,6 @@ body {
     border-radius: 10px;
     border: none;
     padding: 10px 35px;
-    margin: 0.5rem 0;
     opacity: 0.5;
 }
 
@@ -166,7 +165,9 @@ input[type='checkbox'] {
 
 @media(max-width:544px) {
     .form-code-request {
-        display: block;
+        flex-direction: column;
+        height: fit-content;
+        align-items: flex-start;
     }
     .form-input-captcha {
         width: 90%;
